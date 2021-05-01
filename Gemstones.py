@@ -1,6 +1,6 @@
 def gemstones(arr):
     a = set(arr[0])
     for i in range(1,len(arr)):
-        temp = set(arr[i])
-        a = a.intersection(temp)
-    return len(a)
+       a = a.intersection(set(arr[i]))
+    print(len(a))
+print(gemstones(['abcdde', 'baccd', 'eeabg']))
