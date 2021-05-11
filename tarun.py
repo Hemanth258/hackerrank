@@ -1,4 +1,4 @@
-n = int(intput())
+n = int(input())
 s = input()
 def james(n,s):
     m = map(list,s)
