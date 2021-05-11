@@ -32,4 +32,5 @@ def james(n,s):
             f[i] = 'U'
     print(f)
     return "".join(f)
-print(james(n,s))
+#print(james(n,s))
+james(n,s)
