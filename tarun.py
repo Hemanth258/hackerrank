@@ -3,7 +3,6 @@ s = input()
 def james(n,s):
     m = map(list,s)
     m = list(s)
-    print(m)
     f = ['O']*len(s)
     for i in range(len(s)):
         if i == 0 and m[i] == 'c':
@@ -30,7 +29,6 @@ def james(n,s):
                     f[i+2] = 'I'
         if m[i] == 'n' and m[i-1] != 'c' and m[i-2]!='c':
             f[i] = 'U'
-    print(f)
     return "".join(f)
 #print(james(n,s))
 james(n,s)
